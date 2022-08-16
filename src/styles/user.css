@@ -1,0 +1,17 @@
+.user-container{
+    margin: 25px;
+}
+.user-form-cont{
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 67%;
+    margin: auto;
+}
+.user-form  > input{
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+/* .user-form  > input:focus{
+    outline: 0px;
+} */

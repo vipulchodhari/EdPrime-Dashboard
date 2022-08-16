@@ -9,15 +9,15 @@
     margin-top: 7px;
 }
 .dashboard-form>input{
-    padding: 10px 0px;
-    padding-left: 30px;
+    padding: 11px 0px;
+    padding-left: 35px;
     border: none;
     background-color: rgb(236, 241, 247);
     border-radius: 3px;
 }
 .dashboard-form > input:focus{
     /* box-shadow: none; */
-    border: 1px solid red;
+    outline: 0px;
 }
 .dashboard-heading{
     margin-bottom: -50px;

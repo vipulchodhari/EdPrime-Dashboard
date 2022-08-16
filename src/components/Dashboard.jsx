@@ -18,12 +18,13 @@ import PersonIcon from '@mui/icons-material/Person';
 import TrackChangesIcon from '@mui/icons-material/TrackChanges';
 import QuizIcon from '@mui/icons-material/Quiz';
 import '../styles/dashboard.css';
+import { User } from './user';
 
 const drawerWidth = 240;
 
 export const Dashboard = () => {
     return <div>
-        <Box sx={{ display: 'flex' }}>
+        <Box sx={{ display: 'flex'}}>
             <CssBaseline />
             {/* <AppBar
                 position="fixed"
@@ -100,6 +101,8 @@ export const Dashboard = () => {
                     </ListItem>
                 </List>
             </Drawer>
+
         </Box>
+        <User/>
     </div>
 }
